@@ -10,9 +10,9 @@
 	},
 	"permissions": ["storage"],
 	"icons": {
-		"16" : "SMSFactor16.png",
-		"48" : "SMSFactor48.png",
-		"128" : "SMSFactor128.png"
+		"16" : "SMSFactor.png",
+		"48" : "SMSFactor.png",
+		"128" : "SMSFactor.png"
 	},
 	"browser_action" : {
 		"default_icon" : "SMSFactor.png",
