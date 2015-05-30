@@ -1,2 +1,3 @@
-# SMSFactor-extension-chrome
+# SMSFactor
 SMSFactor chrome extension
+
