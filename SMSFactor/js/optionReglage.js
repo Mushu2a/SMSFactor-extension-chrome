@@ -54,5 +54,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		save.addEventListener('click', sauvegarde, false);
 	}
 
-	check.addEventListener('click', showPassword, false);
+	if(check){
+		check.addEventListener('click', showPassword, false);
+	}	
 });
