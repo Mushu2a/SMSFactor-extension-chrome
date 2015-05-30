@@ -2,11 +2,11 @@
 	"manifest_version" : 2,
 	"name" : "SMSFactor",
 	"version" : "0.2",
-	"content_security_policy" : "script-src 'self' 'unsafe-eval'; object-src 'self'",
+	"content_security_policy" : "script-src 'self' 'unsafe-eval' https://backoffice.smsfactor.com/backoffice/api.php; object-src 'self'",
 	"description" : "Extension chrome SMSFactor pour l'envois de SMS",
 	"options_page" : "options_smsfactor.html",
 	"background":{
-		"scripts" : ["background.js"]
+		"scripts" : ["js/background.js", "js/jquery-1.11.3.js"]
 	},
 	"permissions": ["storage"],
 	"icons": {
