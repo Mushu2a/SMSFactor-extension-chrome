@@ -11,7 +11,7 @@ Permet de modifier les informations concernant votre compte SMSFactor avec leque
 Permet l'envoi d'un message à un destinataire défini.
 
 **Badge**
-Un badge affiche ou non vos crédits SMSFactor en fonction de si ou non vous avez configuré votre compte dans les réglages
+Un badge affiche ou non vos crédits SMSFactor en fonction de si oui ou non vous avez configuré votre compte dans les réglages.
 
 
 
