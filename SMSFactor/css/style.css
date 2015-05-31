@@ -1,0 +1,123 @@
+@import url("http://fonts.googleapis.com/css?family=Lato");
+
+* {
+	margin: 0;
+	padding: 0;
+	-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+				box-sizing: border-box;
+}
+
+body {
+	padding: 15px;
+	text-align: left;
+	font-family: Lato;
+	color: #fff;
+	background: #453D3F;
+}
+
+h1 {
+	font-size: 22px;
+	float: left;
+	margin: 10px 0 50px 10px;
+}
+
+h1 span {
+	font-size: 12px;
+	display: block;
+}
+
+.tabs {
+	width: 300px;
+	height: 400px;
+	float: none;
+	list-style: none;
+	position: relative;
+	margin: 20px 0 0 10px;
+	text-align: left;
+}
+
+.tabs li {
+	float: right;
+	display: block;
+}
+
+input[type="radio"] {
+	display: none;
+}
+
+.tabs label {
+	display: block;
+	padding: 14px 21px;
+	border-radius: 2px 2px 0 0;
+	font-size: 20px;
+	background: #F79D59;
+	cursor: pointer;
+	position: relative;
+	top: 4px;
+	-moz-transition: all 0.2s ease-in-out;
+		-o-transition: all 0.2s ease-in-out;
+			-webkit-transition: all 0.2s ease-in-out;
+					transition: all 0.2s ease-in-out;
+}
+
+.tabs label:hover {
+	background: #F5B800;
+}
+
+.tabs .tab-content {
+	z-index: 2;
+	display: none;
+	overflow: hidden;
+	width: 100%;
+	font-size: 17px;
+	line-height: 25px;
+	padding: 25px;
+	position: absolute;
+	top: 53px;
+	left: 0;
+	background: #F8862C;
+}
+
+.tabs [id^="tab"]:checked + label {
+	top: 0;
+	padding-top: 20px;
+	background: #F8862C;
+}
+
+.tabs [id^="tab"]:checked ~ [id^="tab-content"] {
+	display: block;
+}
+
+input[type=button] {
+	background: #F79D59;
+	margin : 30px 30% 0 0;
+	padding: 15px;
+	font-size: 16px;
+	cursor: pointer;
+	color: white;
+	border: none;
+}
+
+input[type=button]:hover {
+	background: #F5B800;
+}
+
+input[type=text],input[type=password],input[type=email] {
+	background: #453D3F;
+	color: #F4EFE7;
+	font-weight: bold;
+	padding: 1% 5%;
+	border: 0;
+}
+
+#message {
+	background: #453D3F;
+	color: #F4EFE7;
+	padding: 5% 10%;
+	font-size: 16px;
+	font-weight: bold;
+	outline: none;
+	resize: none;
+	border: 0;
+}
