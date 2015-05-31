@@ -18,4 +18,3 @@ Un badge affiche ou non vos crédits SMSFactor en fonction de si oui ou non vous
 
 
 
-![alt tag](https://lastennetloic.fr/images/smsfactor.png)
