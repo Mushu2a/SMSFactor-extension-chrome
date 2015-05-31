@@ -4,7 +4,7 @@ SMSFactor chrome extension
 Vous disposez d'un compte SMSFactor et vous voulez envoyer un message simple ?
 Via cette extension chrome vous avez la possibilité d'en envoyé un directement lorsque vous y pensez.
 
-**Réglage**
+**Réglages**
 
 Permet de modifier les informations concernant votre compte SMSFactor avec lequel vous voulez envoyer un message.
 
