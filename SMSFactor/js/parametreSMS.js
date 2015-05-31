@@ -3,6 +3,20 @@
 * Configure XML for send SMS at recipient
 */
 
+$(function () {
+	$('#message').keyup(function () {
+		var x = $('#message').val();
+
+		var ligne = x.match(/(\r\n|\n|\r)/g);
+		var plus = 0;
+		if (ligne != null) {
+			plus = ligne.length;
+		}
+
+		$('#taille').html(x.length + plus + " caractères");
+	});
+});
+
 // Envois XML avec les informations
 // Send XML with informations
 function sendXML() {

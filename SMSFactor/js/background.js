@@ -1,15 +1,17 @@
 /*
 * Evènement en tâche de fond
-* Evenement in background
+* Event in background
 */
 
+// Fonction de retour permettant d'obtenir le(s) crédits et l'affhiche dans le badge noir
+// Function callback get credit(s) account and show in the black badge
 function jsoncallback(data){
 	chrome.browserAction.setBadgeBackgroundColor({ color: "#000"});
 	chrome.browserAction.setBadgeText({'text' : data.credit});
 }
 
-// Toutes les 2 secondes ajoute informations dans le badge de couleur noir
-// Interval 2 seconds add informations on the black badge
+// Toutes les secondes vérifie le(s) crédit du compte SMSFactor en AJAX (GET)
+// Interval seconds check credit account SMSFactor with AJAX (GET)
 setInterval (function() {
 	$(document).ready(function(){
 		login = localStorage['SMSFactorlogin'];
