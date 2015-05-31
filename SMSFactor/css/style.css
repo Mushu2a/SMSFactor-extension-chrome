@@ -135,13 +135,9 @@ input[type=text],input[type=password],input[type=email] {
 
 textarea {
 	width: 100%;
-}
-
-#message {
 	background: #453D3F;
 	color: #F4EFE7;
 	padding: 5% 10%;
-	font-size: 16px;
 	font-weight: bold;
 	outline: none;
 	resize: none;
