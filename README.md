@@ -1,6 +1,8 @@
 # SMSFactor
 SMSFactor chrome extension
 
+## Introduction
+
 Vous disposez d'un compte SMSFactor et vous voulez envoyer un message simple ?
 Via cette extension chrome vous avez la possibilité d'en envoyé un directement lorsque vous y pensez.
 
