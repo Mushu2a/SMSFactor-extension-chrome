@@ -31,8 +31,8 @@ https://chrome.google.com/webstore/detail/smsfactor/lfgbfpodgbkcanfopleilgfbfeel
 
 Un addon permettant l'installation des extensions provenant de chrome.
 https://addons.opera.com/fr/extensions/details/download-chrome-extension-9
-Puis après avoir redémarrer le navigateur
 
+Puis après avoir redémarrer le navigateur
 https://chrome.google.com/webstore/detail/smsfactor/lfgbfpodgbkcanfopleilgfbfeelhigg
 
 
