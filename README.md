@@ -21,6 +21,20 @@ Un badge affiche ou non vos crédits SMSFactor en fonction de si oui ou non vous
 ![alt tag](https://lastennetloic.fr/images/chromeSMSFactor.png)
 
 
+## Installation
+
+**Chrome WebStore**
+
+https://chrome.google.com/webstore/detail/smsfactor/lfgbfpodgbkcanfopleilgfbfeelhigg
+
+**Opera addons**
+
+Un addon permettant l'installation des extensions provenant de chrome.
+https://addons.opera.com/fr/extensions/details/download-chrome-extension-9
+Puis après avoir redémarrer le navigateur
+https://chrome.google.com/webstore/detail/smsfactor/lfgbfpodgbkcanfopleilgfbfeelhigg
+
+
 ## Copyright
 
-Copyright © 2015 LAstennet Loïc
+Copyright © 2015 Lastennet Loïc
