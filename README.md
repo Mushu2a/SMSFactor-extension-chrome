@@ -1,6 +1,8 @@
 # SMSFactor
 SMSFactor chrome extension
 
+## Introduction
+
 Vous disposez d'un compte SMSFactor et vous voulez envoyer un message simple ?
 Via cette extension chrome vous avez la possibilité d'en envoyé un directement lorsque vous y pensez.
 
@@ -19,3 +21,23 @@ Un badge affiche ou non vos crédits SMSFactor en fonction de si oui ou non vous
 
 
 ![alt tag](https://lastennetloic.fr/images/chromeSMSFactor.png)
+
+
+## Installation
+
+**Chrome WebStore**
+
+https://chrome.google.com/webstore/detail/smsfactor/lfgbfpodgbkcanfopleilgfbfeelhigg
+
+**Opera addons**
+
+Un addon permettant l'installation des extensions provenant de chrome.
+https://addons.opera.com/fr/extensions/details/download-chrome-extension-9
+
+Puis après avoir redémarrer le navigateur
+https://chrome.google.com/webstore/detail/smsfactor/lfgbfpodgbkcanfopleilgfbfeelhigg
+
+
+## Copyright
+
+Copyright © 2015 Lastennet Loïc
