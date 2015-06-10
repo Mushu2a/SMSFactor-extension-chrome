@@ -26,7 +26,31 @@ function sendXML() {
 	var destinataire = document.getElementById('destinataire').value;
 	var message = document.getElementById('message').value;
 
-	document.sendSMS.XML.value = "<sms><authentification><username>" + login + "</username><password>" + password + "</password></authentification><message><sender>" + sender +"</sender><text>" + message + "</text></message><recipients><gsm gsmsmsid=\"\">" + destinataire +"</gsm></recipients></sms>" ;
+	if (password.length == 0) {
+		chrome.browserAction.setBadgeBackgroundColor({ color: "#FF0000"});
+		chrome.browserAction.setBadgeText({'text' : "NON"});
+		window.close();
+	};
+
+	if (login.length == 0) {
+		chrome.browserAction.setBadgeBackgroundColor({ color: "#FF0000"});
+		chrome.browserAction.setBadgeText({'text' : "NON"});
+		window.close();
+	};
+
+	if (destinataire.length == 0) {
+		chrome.browserAction.setBadgeBackgroundColor({ color: "#FF0000"});
+		chrome.browserAction.setBadgeText({'text' : "NON"});
+		window.close();
+	};
+
+	if (message.length == 0) {
+		chrome.browserAction.setBadgeBackgroundColor({ color: "#FF0000"});
+		chrome.browserAction.setBadgeText({'text' : "NON"});
+		window.close();
+	};
+
+	document.sendSMS.XML.value = "<sms><authentification><username>" + login + "</username><password>" + password + "</password></authentification><message><sender>" + sender +"</sender><text>" + message + "</text></message><recipients><gsm gsmsmsid=\"\">" + destinataire +"</gsm></recipients></sms>";
 	document.getElementById('sendSMS').submit();
 }
 

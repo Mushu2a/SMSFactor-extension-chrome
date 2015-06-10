@@ -8,6 +8,19 @@
 function jsoncallback(data){
 	chrome.browserAction.setBadgeBackgroundColor({ color: "#000"});
 	chrome.browserAction.setBadgeText({'text' : data.credit});
+
+	if (localStorage['SMSFactorcredit'] != data.credit) {
+
+		localStorage['SMSFactorcredit'] = data.credit;
+		chrome.runtime.reload();
+
+	};
+
+	if (data.credit == "none") {
+		localStorage['SMSFactorlogin'] = "";
+		localStorage['SMSFactorpassword'] = "";
+		localStorage['SMSFactorsender'] = "";
+	};
 }
 
 // Toutes les secondes vérifie le(s) crédit du compte SMSFactor en AJAX (GET)
@@ -24,4 +37,4 @@ setInterval (function() {
 			dataType: "jsonp"
 		});
 	});
-},1000);
+},2000);

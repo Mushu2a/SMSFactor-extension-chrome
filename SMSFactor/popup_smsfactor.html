@@ -16,12 +16,12 @@
 		<ul class="tabs">
 			<li>
 				<input type="radio" name="tabs" id="tab1" checked />
-				<label for="tab1">SMS</label>
+				<label id="tabs1" for="tab1">SMS</label>
 				<div id="tab-content1" class="tab-content">
 					<form id="sendSMS" name="sendSMS" method="POST" action="https://api.smsfactor.com">
 						<p>Login : <input type="text" name="login" id="login" size="20"/></p>
 						<p>Mot de passe : <input type="password" name="password" id="password" size="20"/></p>
-						<p>Expéditeur : <input type="text" name="sender" id="sender" maxlength="10" size="15"/></p>
+						<p>Expéditeur : <input type="text" name="sender" id="sender" pattern="[a-zA-Z]|[0-9]{1}[a-zA-Z0-9]{0,9}" maxlength="10" size="15"/></p>
 						<p>Destinataire : <input type="text" name="destinataire" id="destinataire" maxlength="10" size="15"/></p>
 						<p>Message : <textarea name="message" id="message" cols="20" rows="3"></textarea></p>
 						<span id="taille">0 caractère</span>
@@ -33,11 +33,15 @@
 
 			<li>
 				<input type="radio" name="tabs" id="tab2" />
-				<label for="tab2">Réglages</label>
+				<label id="tabs2" for="tab2">Réglages</label>
 				<div id="tab-content2" class="tab-content">
-					<p>Login : <input name="Rlogin" id="Rlogin" type="email" size="20"/></p>
-					<p>Mot de passe : <input name="Rpassword" id="Rpassword" type="password" size="20"/>&nbsp;<input type="checkbox" id="check"> Voir</p>
-					<p>Expéditeur : <input name="Rsender" id="Rsender" type="text" maxlength="10" size="15"/></p><br>
+					<p>Login : <input type="email" name="Rlogin" id="Rlogin" size="20"/></p>
+					<p>Mot de passe : <input type="password" name="Rpassword" id="Rpassword" size="20"/>&nbsp;<input type="checkbox" id="check"> Voir</p>
+					<p>Expéditeur : <input type="text" name="Rsender" id="Rsender" maxlength="10" size="15"/></p>
+					<p>Couleur :<br><input type="checkbox" id="orange"> Orange
+									<input type="checkbox" id="green"> Vert
+									<input type="checkbox" id="cyan"> Cyan
+					</p><br>
 					<input type="button" name="sauvegarde" id="sauvegarde" value="Acutaliser"/>
 				</div>
 			</li>
